@@ -1,0 +1,36 @@
+*{
+box-sizing: border-box;
+}
+body{
+    background-color:  hsl(212, 45%, 89%);
+   min-height: 600px;
+   position: relative;
+}
+ div.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 20px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align:center;
+    box-shadow: 0 6px 20px 0 hsl(220,15%,55%);
+
+} 
+img{
+    width: 100%;
+    border-radius: 8px;
+
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    font-family:'Outfit',sans-serif;
+}
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&family=Outfit:wght@400;700&display=swap');
+h3{
+    font-weight: 700;
+    font-family:'Outfit',sans-serif;
+}
